@@ -1,3 +1,4 @@
+import { identifierName } from '@angular/compiler';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DemoApp';
+  greeting = "Welcome to GreatLearning"
+  
+  public name ="";
+  
+  sayHello(){
+    var number = parseInt(this.name);
+    var result;
+
+    
+
+    
+  }
 }
